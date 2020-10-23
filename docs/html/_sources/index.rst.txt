@@ -9,6 +9,8 @@ Welcome to ml-metric's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   00_introduction
 
 
 
