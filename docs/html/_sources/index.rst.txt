@@ -12,6 +12,7 @@ Welcome to ml-metric's documentation!
 
    00_introduction
    01_regression
+   02_classification
 
 
 

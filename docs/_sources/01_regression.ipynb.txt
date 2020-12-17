@@ -11,7 +11,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## MAE"
+    "## MAE (Mean Absolute Error)\n"
    ]
   },
   {
