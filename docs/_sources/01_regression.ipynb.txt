@@ -13,7 +13,7 @@
    "source": [
     "---\n",
     "## MAE (Mean Absolute Error)\n",
-    "$$ MAE = \\sum$$\n"
+    "$$ MAE = \\frac{1}{N}\\sum_{i=1}^{N}|y_{i} - \\hat{y_{i}}|$$\n"
    ]
   },
   {
@@ -21,7 +21,8 @@
    "metadata": {},
    "source": [
     "---\n",
-    "## MSE"
+    "## MSE\n",
+    "$$ MSE = \\frac{1}{N}\\sum_{i=1}^{N}(y_{i} - \\hat{y_{i}})^{2}$$"
    ]
   },
   {
@@ -29,7 +30,16 @@
    "metadata": {},
    "source": [
     "---\n",
-    "## RMSE"
+    "## RMSE\n",
+    "$$ RMSE = \\sqrt{ \\frac{1}{N}\\sum_{i=1}^{N}(y_{i} - \\hat{y_{i}})^{2}}$$"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "---\n",
+    "## Huber Loss 評価関数？ 損失関数？"
    ]
   },
   {

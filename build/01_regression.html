@@ -91,6 +91,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#MAE-(Mean-Absolute-Error)">MAE (Mean Absolute Error)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#MSE">MSE</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#RMSE">RMSE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#Huber-Loss-評価関数？-損失関数？">Huber Loss 評価関数？ 損失関数？</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="02_classification.html">分類問題における評価指標</a></li>
@@ -419,15 +420,23 @@ div.rendered_html tbody tr:hover {
 <div class="section" id="MAE-(Mean-Absolute-Error)">
 <h2>MAE (Mean Absolute Error)<a class="headerlink" href="#MAE-(Mean-Absolute-Error)" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="math notranslate nohighlight">
-\[MAE = \sum\]</div>
+\[MAE = \frac{1}{N}\sum_{i=1}^{N}|y_{i} - \hat{y_{i}}|\]</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="MSE">
 <h2>MSE<a class="headerlink" href="#MSE" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[MSE = \frac{1}{N}\sum_{i=1}^{N}(y_{i} - \hat{y_{i}})^{2}\]</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="RMSE">
 <h2>RMSE<a class="headerlink" href="#RMSE" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[RMSE = \sqrt{ \frac{1}{N}\sum_{i=1}^{N}(y_{i} - \hat{y_{i}})^{2}}\]</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="Huber-Loss-評価関数？-損失関数？">
+<h2>Huber Loss 評価関数？ 損失関数？<a class="headerlink" href="#Huber-Loss-評価関数？-損失関数？" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
