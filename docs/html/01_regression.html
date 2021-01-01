@@ -91,6 +91,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#MAE-(Mean-Absolute-Error)">MAE (Mean Absolute Error)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#MSE">MSE</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#RMSE">RMSE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#MSLE">MSLE</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#Huber-Loss-評価関数？-損失関数？">Huber Loss 評価関数？ 損失関数？</a></li>
 </ul>
 </li>
@@ -433,6 +434,12 @@ div.rendered_html tbody tr:hover {
 <h2>RMSE<a class="headerlink" href="#RMSE" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="math notranslate nohighlight">
 \[RMSE = \sqrt{ \frac{1}{N}\sum_{i=1}^{N}(y_{i} - \hat{y_{i}})^{2}}\]</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="MSLE">
+<h2>MSLE<a class="headerlink" href="#MSLE" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[MSLE=  \frac{1}{N}\sum_{i=1}^{N}\{ log(1+y_{i}) - log(1+ \hat{y_{i}})\}^{2}\]</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="Huber-Loss-評価関数？-損失関数？">
